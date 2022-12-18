@@ -1,5 +1,5 @@
 import React, { HTMLAttributes } from 'react';
-import { Icon, IconOptions, IconSize, IconColorOptions } from '../Icon/Icon';
+import { Icon, IconOptions, IconSize, IconColorOptions } from './Icon';
 
 /**  ButtonProps contains the definitions for the Button component  */
 export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, IconOptions, IconSize, IconColorOptions } from '../Icon/Icon';
+import { Icon, IconOptions, IconSize, IconColorOptions } from './Icon';
 
 /**
  * @type CardProps defines the required data for the Card Component
