@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/TomMcEachan/pop-ui.git"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "description": "POP UI is a React UI library designed with accessibility in mind.",
   "keywords": [
