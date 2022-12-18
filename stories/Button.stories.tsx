@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { ButtonProps, Button, ButtonVariant } from '../src/Button/Button';
-import { IconOptions } from '../src/Icon/Icon';
+import { ButtonProps, Button} from '../src/Button';
+import { IconOptions } from '../src/Icon';
 
 const meta: Meta = {
   title: 'Button',
@@ -21,33 +21,33 @@ export const Default = Template.bind({});
 
 Default.args = {
   text: 'Default Button',
-  variant: ButtonVariant.Primary,
+  variant: "primary"
 };
 
 export const Primary = Template.bind({});
 
 Primary.args = {
   text: 'Primary Button',
-  variant: ButtonVariant.Primary,
+  variant: "primary",
 };
 
 export const Secondary = Template.bind({});
 
 Secondary.args = {
   text: 'Secondary Button',
-  variant: ButtonVariant.Secondary,
+  variant: "secondary"
 };
 
 export const PrimaryOutline = Template.bind({});
 
 PrimaryOutline.args = {
   text: 'Primary Outline Button',
-  variant: ButtonVariant.PrimaryOutline,
+  variant: "primary-outline"
 };
 
 export const SecondaryOutline = Template.bind({});
 
 SecondaryOutline.args = {
   text: 'Secondary Outline Button',
-  variant: ButtonVariant.SecondaryOutline,
+  variant: "secondary-outline"
 };

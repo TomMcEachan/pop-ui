@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Card, CardProps, ColorOptions, CardVariants } from '../src/Card/Card';
-import { IconOptions, IconSize } from '../src/Icon/Icon';
+import { Card, CardProps, ColorOptions, CardVariants } from '../src/Card';
+import { IconOptions, IconSize } from '../src/Icon';
 
 const meta: Meta = {
   title: 'Card',

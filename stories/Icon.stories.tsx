@@ -6,7 +6,7 @@ import {
   IconOptions,
   IconSize,
   IconColorOptions,
-} from '../src/Icon/Icon';
+} from '../src/Icon';
 
 const meta: Meta = {
   title: 'Icon',
