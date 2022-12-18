@@ -4,7 +4,7 @@ import { Icon, IconOptions, IconSize, IconColorOptions } from '../Icon/Icon';
 /**
  * @type CardProps defines the required data for the Card Component
  */
-export type CardProps = {
+export interface CardProps {
   /** The main text that shows on the component */
   text: string;
   /** Defines the CSS of the card */
@@ -19,7 +19,7 @@ export type CardProps = {
   handleClick: ClickOptions;
   /** This is where the route can be specified if required*/
   route?: string;
-};
+}
 
 /** This enum defines the potential variants of the card */
 export const enum CardVariants {
