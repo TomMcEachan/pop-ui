@@ -1,15 +1,3 @@
-export { Button, ButtonProps, ButtonVariant, ButtonColors } from './Button';
-export {
-  Card,
-  CardProps,
-  CardVariants,
-  ClickOptions,
-  ColorOptions,
-} from './Card';
-export {
-  Icon,
-  IconProps,
-  IconOptions,
-  IconSize,
-  IconColorOptions,
-} from './Icon';
+export { Button } from './Button';
+export { Card } from './Card';
+export { Icon } from './Icon';
