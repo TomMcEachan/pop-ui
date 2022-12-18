@@ -66,7 +66,7 @@ export const Card = ({ text, variant, icon, color, iconSize }: CardProps) => {
 };
 
 /** This method gets the style of the outer div of the card based on the specified variant prop and color prop  */
-export function getOuterDivStyle(variant: CardVariants, color: ColorOptions) {
+function getOuterDivStyle(variant: CardVariants, color: ColorOptions) {
   let divStyle;
   let colorStyle = getBackgroundColor(color);
 
@@ -82,7 +82,7 @@ export function getOuterDivStyle(variant: CardVariants, color: ColorOptions) {
 }
 
 /** This method gets the style of the title based on the variant specified in the card props */
-export function getTitleStyle(variant: CardVariants) {
+function getTitleStyle(variant: CardVariants) {
   let titleStyle;
 
   if (variant === CardVariants.Primary) {
@@ -98,7 +98,7 @@ export function getTitleStyle(variant: CardVariants) {
 }
 
 /** This method gets the specific color of the card based on the color specified in the props */
-export function getBackgroundColor(color: ColorOptions) {
+function getBackgroundColor(color: ColorOptions) {
   let colorStyle;
   if (color === ColorOptions.Blue) {
     colorStyle = 'bg-spblue-light';
@@ -114,7 +114,7 @@ export function getBackgroundColor(color: ColorOptions) {
 }
 
 /** This method gets the complementary color for the selected color option */
-export function getForegroundColor(color: ColorOptions) {
+function getForegroundColor(color: ColorOptions) {
   let style;
   if (color === ColorOptions.Blue) {
     style = 'bg-spblue-dark';
@@ -132,7 +132,7 @@ export function getForegroundColor(color: ColorOptions) {
 }
 
 /** This method gets the complete foreground style */
-export function getForegroundStyle(color: ColorOptions, variant: CardVariants) {
+function getForegroundStyle(color: ColorOptions, variant: CardVariants) {
   let style;
   let colorStyle = getForegroundColor(color);
   let size = getForegroundSize(variant);
@@ -143,7 +143,7 @@ export function getForegroundStyle(color: ColorOptions, variant: CardVariants) {
 }
 
 /** This method gets the foreground size which is appropriate for the card variant */
-export function getForegroundSize(variant: CardVariants) {
+function getForegroundSize(variant: CardVariants) {
   let size;
 
   switch (variant) {
